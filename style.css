@@ -21,14 +21,14 @@
 body , html {
     width: 100vw;
     color: white;
-    
+    background-color: #000000;
 }
 
 
 
 html {
     color: black;
-    font-size: 2em;
+    font-size: 1em;
     
 }
 
@@ -36,13 +36,14 @@ header {
     width: 100vw;
     height: 110vh;
     background-color: aqua;
+    
 }
 
 #titulo {
     display: inline-block;
     width: 80vw;
     background-color: #35f605;
-    margin-top: 250px;
+    margin-top: 120px;
     margin-left: 60px;
     font-size: 1.7em;
     font-family: var(--font-nunito);
@@ -75,11 +76,9 @@ header {
 } */
 
 #img1 {
-    width: 500px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    
-      
+    width: 400px;
+    margin: auto;
+    display: block;
 }
 
 #menu {
@@ -127,27 +126,133 @@ main{
     width: 100vw;
     height: 100vh;
     background-color: #35f605;
+    
+    
+}
+.etapa {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    background-color: white;
+    margin: 60px 0px 30px 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+    display: inline-block;
 }
 
+.etapa > p {
+    padding-top: 6px;
+    
+}
+
+section {
+    
+    padding-left: 50px;
+}
+#linha {
+    border-left: 5px solid black;
+    margin-left: 60px;
+}
+#linha2 {
+    margin-left: -77px;
+}
+.etapas_nome {
+    background-color: red;
+}
+.etapas_nome > p {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 2em;
+    color: black;
+}
+
+.explicacao {
+    color: black;
+    width: 70vw;
+    margin-left: 20vw;
+}
+#etapa2 {
+    background-color: red;
+   
+    
+}
 #portifolio {
     width: 100vw;
     height: 100vh;
     background-color: rgb(118, 54, 202);
 }
+#titulo_port {
+    display: block;
+    font-size: 2em;
+    margin-left: 10vw;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.port_div {
+    background-color: red;
+    width: 75vw;
+    height: 210px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.port_div > hr {
+    background-color: #000000;
+    border: 0.5px solid black;
+    
 
-#contato {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(255, 0, 0);
+}
+.nome_port {
+    font-size: 2em;
+    margin-left: 10px;
 }
 
 footer {
     width: 100%;
-    height: 100vh;
+    height: 22vh;
     background-color: rgb(255, 255, 0);
+    color: black;
+}
+footer > hr {
+    background-color: #000000;
+    border: 0.5px solid black;
+    width: 100px;
+    margin: auto;
+}
+.icon_div {
+    display: inline-block;
+}
+.rede_icone {
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-bottom: 5px;
 }
 
-
+#logo {
+    color: black;
+    font-size: 2em;
+    text-align: center; 
+    margin-bottom: 7px;  
+    margin-top: -10px;
+    
+}
+#seta_div {
+    display: inline-block;
+    padding-left: 20px;
+}
+#seta {
+    margin-top: -40px;
+    width: 30px;
+    float: right;
+    margin-right: 40px;
+}
+#copr {
+    margin-top: 8px;
+    text-align: center;
+}
 
 .titulos1 {
     font-size: 2.2em;
