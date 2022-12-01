@@ -5,14 +5,14 @@ inicio_logo.reveal(".titulo3", {
     origin: "top", 
     distance: "1000px", 
     duration: 1000, 
-    delay: 0, 
+    delay: 500, 
     reset: false 
 });
 
 const inicio_left = ScrollReveal({reset: true})
 inicio_left.reveal("#linha_logo", {
-    origin: "right", 
-    distance: "500px", 
+    origin: "left", 
+    distance: "1500px", 
     duration: 1000, 
     delay: 0, 
     reset: false 
@@ -87,7 +87,7 @@ p2_linha.reveal(".p2_linha", {
 const p2_text = ScrollReveal({reset: true})
 p2_text.reveal(".texto2, .texto1", {
     origin: "right", 
-    distance: "1000px", 
+    distance: "60px", 
     duration: 2000, 
     delay: 1500, 
     reset: false 
@@ -100,7 +100,7 @@ p2_text.reveal(".texto2, .texto1", {
 const p3_bolinha = ScrollReveal({reset: true})
 p3_bolinha.reveal(".circulo", {
     origin: "top", 
-    distance: "100px", 
+    distance: "60px", 
     duration: 2000, 
     delay: 1500, 
     reset: false 
@@ -130,7 +130,7 @@ p3_sub.reveal(".text_titulo", {
 const p3_text = ScrollReveal({reset: true})
 p3_text.reveal(".explicacao", {
     origin: "right", 
-    distance: "1000px", 
+    distance: "60px", 
     duration: 2000, 
     delay: 2000, 
     reset: false 
@@ -144,7 +144,7 @@ p3_text.reveal(".explicacao", {
 const p4_div_img_1 = ScrollReveal({reset: true})
 p4_div_img_1.reveal("#port_div1", {
     origin: "left", 
-    distance: "1000px", 
+    distance: "60px", 
     duration: 2000, 
     delay: 500, 
     reset: false 
@@ -153,7 +153,7 @@ p4_div_img_1.reveal("#port_div1", {
 const p4_div_img_2 = ScrollReveal({reset: true})
 p4_div_img_2.reveal("#port_div2", {
     origin: "right", 
-    distance: "1000px", 
+    distance: "60px", 
     duration: 2000, 
     delay: 500, 
     reset: false 
