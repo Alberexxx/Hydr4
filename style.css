@@ -22,15 +22,9 @@ body , html {
     width: 100vw;
     color: white;
     background-color: #000000;
-    
-}
-
-
-
-html {
-    color: black;
+    scroll-behavior: smooth;
     font-size: 1em;
-    
+    color: black;
 }
 
 header {
@@ -43,34 +37,43 @@ header {
 #titulo {
     width: 80vw;
     background-color: #35f605;
-    margin-top: 120px;
-    margin-left: 60px;
+    margin-top: 50px;
+    margin-left: 30px;
     font-size: 1.7em;
     font-family: var(--font-nunito);
-    margin-top: -280px;
+    
+    
 }
 
 #nav1 {
     width: 100vw;
-    height: 90px;
+    height: 70px;
     background-color: azure;
     color: black;
     
 }
 
-
 #nav1 > p {
-    margin: 20px 0px 20px 10px;
-    font-size: 2em;
+    margin: 5px 0px 20px 10px;
+    font-size: 3em;
     display: inline-block;
+    
 }
 
+#linha_logo {
+    width: 60vw;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: -50px;
+    margin-left: 150px;
 
+}
 
 #img1 {
     width: 400px;
     margin: auto;
     display: block;
+    
 }
 .contato {
     background-color:var(--verde);
@@ -83,7 +86,11 @@ header {
     padding-bottom: 8px;
     margin-left: 30px;
     margin-top: 30px;
-    
+    color: white;
+    visibility: hidden;
+}
+.link_whats {
+    text-decoration: none;
 }
 #whatsapp {
     width: 50px;
@@ -91,46 +98,16 @@ header {
     width:60px;height:60px;
     bottom:40px;
     right:40px;
-    background-color:#25d366;
     border-radius: 50%;
     box-shadow: 1px 1px 2px rgba(8, 8, 8, 0.373);
+    cursor: pointer;
+}
+#whatsapp:hover {
+
 }
 #contato_2 {
     width: 170px;
     margin-top: -38px;
-}
-#menu {
-    width: 250px;
-    background-color: #ff02ff;
-    display: inline-block;
-    margin-left: 50vw;
-    margin-top: -88px;
-    font-size: 2em;
-    margin-bottom: -400px;
-    position: relative;
-}
-#logo_hydr4 {
-    text-align: center;
-}
-
-#menu > li {
-    list-style-type: none;
-    margin-bottom: 30px;
-    padding-left: 10px;
-}
-
-#menu  a {
-    text-decoration: none;
-    
-}
-#menu > hr {
-    border: 0.5px solid black;
-    background-color: black;
-    margin-bottom: 20px;
-}
-
-.item_menu {
-
 }
 
 main{
