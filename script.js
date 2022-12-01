@@ -27,11 +27,20 @@ inicio_bottom.reveal("#titulo", {
     reset: false 
 });
 
+const inicio_contato = ScrollReveal({reset: true})
+inicio_contato.reveal(".contato", {
+    origin: "bottom", 
+    distance: "0px", 
+    duration: 2000, 
+    delay: 1400, 
+    reset: false 
+});
+
 const inicio_img = ScrollReveal({reset: true})
 inicio_img.reveal("#img1", {
-    origin: "right", 
+    origin: "bottom", 
     distance: "400px", 
-    duration: 2000, 
+    duration: 4000, 
     delay: 1400, 
     reset: false 
 });
@@ -137,7 +146,7 @@ p4_div_img_1.reveal("#port_div1", {
     origin: "left", 
     distance: "1000px", 
     duration: 2000, 
-    delay: 1000, 
+    delay: 500, 
     reset: false 
 });
 
@@ -146,7 +155,7 @@ p4_div_img_2.reveal("#port_div2", {
     origin: "right", 
     distance: "1000px", 
     duration: 2000, 
-    delay: 1000, 
+    delay: 500, 
     reset: false 
 });
 

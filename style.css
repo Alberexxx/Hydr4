@@ -25,6 +25,7 @@ body , html {
     scroll-behavior: smooth;
     font-size: 1em;
     color: black;
+    font-family: var(--font_Raleway);
 }
 
 header {
@@ -34,15 +35,27 @@ header {
     
 }
 
+.titulo3 {
+    
+}
+
+.titulo3 > a {
+    text-decoration: none;
+    color: black;
+}
 #titulo {
     width: 80vw;
     background-color: #35f605;
     margin-top: 50px;
     margin-left: 30px;
     font-size: 1.7em;
-    font-family: var(--font-nunito);
-    
-    
+    padding: 15px 15px 15px 15px;
+    padding-left: 15px;  
+    padding-right: 15px;
+    border-radius: 20px;
+}
+#titulo:hover {
+    background-color: var(--preto_claro);
 }
 
 #nav1 {
@@ -65,7 +78,7 @@ header {
     background-color: black;
     border: 2px solid black;
     margin-top: -50px;
-    margin-left: 150px;
+    margin-left: 160px;
 
 }
 
@@ -77,17 +90,19 @@ header {
 }
 .contato {
     background-color:var(--verde);
-    font-size: 1.5em;
+    font-size: 1.3em;
     height: 30px;
     width: 140px;
     border-radius: 20px;
     padding-left: 13px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 3px;
     margin-left: 30px;
     margin-top: 30px;
-    color: white;
-    visibility: hidden;
+    color: var(--preto); 
+}
+.contato:hover {
+    background-color: #35f605;
 }
 .link_whats {
     text-decoration: none;
@@ -99,8 +114,10 @@ header {
     bottom:40px;
     right:40px;
     border-radius: 50%;
+    background-color: #76b900;
     box-shadow: 1px 1px 2px rgba(8, 8, 8, 0.373);
     cursor: pointer;
+    
 }
 #whatsapp:hover {
 
@@ -142,9 +159,10 @@ main{
 }
 
 .titulo1 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-left: 20px;
     margin-bottom: -73px;
+    
 }
 #conteudo_func {
     background-color: aqua;
@@ -164,10 +182,11 @@ main{
     
 }
 .titulo_func {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     height: 50px;
     margin-top: -160px;
 }   
+
 #tampao {
     background-color: purple;
     width: 10px;
@@ -201,10 +220,13 @@ main{
     border-radius: 50%;
     margin-left: 28px;
 }
+.circulo:hover {
+    background-color: aqua;
+}
 .circulo > p {
     font-size: 2em;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 .text_titulo {
     background-color: darkorange;
@@ -213,6 +235,10 @@ main{
     margin-top: -30px;
     margin-left: 60px;
 }
+.text_titulo:hover {
+    color: greenyellow;
+}
+
 #portifolio {
     width: 100vw;
     height: 100vh;
@@ -220,7 +246,7 @@ main{
 }
 #titulo_port {
     display: block;
-    font-size: 2em;
+    font-size: 2.2em;
     margin-left: 10vw;
     margin-top: 20px;
     margin-bottom: -30px;
@@ -232,6 +258,9 @@ main{
     margin: auto;
     margin-top: 80px;
     margin-bottom: 40px;
+}
+.port_div:hover {
+    border: 1px solid black;
 }
 .port_div > hr {
     background-color: #000000;
@@ -256,9 +285,14 @@ footer > hr {
     width: 100px;
     margin: auto;
 }
+footer > a {
+    text-decoration: none;
+
+}
 .icon_div {
     display: inline-block;
 }
+
 .rede_icone {
     width: 20px;
     display: inline-block;
@@ -284,6 +318,11 @@ footer > hr {
     width: 30px;
     float: right;
     margin-right: 40px;
+    background-color: #76b900;
+    border-radius: 50%;
+}
+#seta:hover {
+    background-color: #05f621;
 }
 #copr {
     margin-top: 13px;
@@ -292,21 +331,23 @@ footer > hr {
 
 .titulos1 {
     font-size: 2.2em;
-    font-family: var(--font-nunito);
     margin-bottom: 50px;
     
 }
 .sub_titulos {
     font-size: 1.2em;
-    font-family: var(--font_Raleway);
     margin-bottom: 5px;
     margin-top: 10px;
+    background-color: khaki;
+    margin-right: 287px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.sub_titulos:hover  {
+    background-color: #35f605;
 }
 
-.texto1 {
-    padding-left: 50px;
-}
 .texto2{
     padding-left: 50px;
+    margin-right: 90px;
 }
-
