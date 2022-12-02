@@ -144,7 +144,7 @@ p3_text.reveal(".explicacao", {
 const p4_div_img_1 = ScrollReveal({reset: true})
 p4_div_img_1.reveal("#port_div1", {
     origin: "left", 
-    distance: "60px", 
+    distance: "30px", 
     duration: 2000, 
     delay: 500, 
     reset: false 
