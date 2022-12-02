@@ -21,7 +21,7 @@
 body , html {
     width: 100vw;
     color: white;
-    background-color: #000000;
+    background-color: #ffffff;
     scroll-behavior: smooth;
     font-size: 1em;
     color: black;
@@ -30,7 +30,7 @@ body , html {
 
 header {
     width: 100vw;
-    height: 130vh;
+    height: 110vh;
     background-color: aqua;
     
 }
@@ -42,13 +42,15 @@ header {
 .titulo3 > a {
     text-decoration: none;
     color: black;
+    margin-left: 40vw;
 }
 #titulo {
-    width: 80vw;
-    background-color: #35f605;
-    margin-top: 80px;
-    margin-left: 40px;
-    font-size: 1.7em;
+    
+    width: 40vw;
+    background-color: #f60531;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 2em;
     padding: 15px 15px 15px 15px;
     padding-left: 15px;  
     padding-right: 15px;
@@ -67,34 +69,45 @@ header {
 }
 
 #nav1 > p {
-    margin: 5px 0px 20px 20px;
+    
     font-size: 3em;
-    display: inline-block;
     
 }
 
 #img1 {
-    width: 400px;
-    margin: auto;
+    width: 50vw;
+    margin-left: 46vw;
+    margin-right: 10vw;
+    margin-top: -400px;
     display: block;
+    
     
 }
 .contato {
+    display: inline-block;
     background-color:var(--verde);
     font-size: 1.3em;
     height: 30px;
     width: 140px;
     border-radius: 20px;
-    padding-left: 13px;
     padding-top: 8px;
     padding-bottom: 3px;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 30px;
     color: var(--preto); 
 }
 .contato:hover {
     background-color: #35f605;
 }
+#contato_1{
+    margin-top: 60px;
+    margin-left: 13vw;
+    width: 180px;
+    text-align: center;
+    padding-right: 7px;
+
+}
+
 .link_whats {
     text-decoration: none;
 }
@@ -131,15 +144,55 @@ main{
     
 }
 #oq_faz > p {
+    
     margin-left: 30px;
     display: block;
     border-collapse: separate;
     
 }
+.sub_titulos {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: khaki;
+    padding-left: 10px;
+    border-radius: 20px;
+    width: 170px;
+}
+#sub_titulo_1 {
+    display: block;
+    width: 150px;
+    margin-right: -100px;
+}
+#sub_titulo_2 {
+    width: 125px;
+    margin-top: -27px;
+    float: right;
+    margin-right: 50vw;
+}
+#sub_titulo_3 {
+    margin-top: -27px;
+    margin-right: -50vw;
+    float: right;
+    
+}
+/* .linha_p2 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+} */
+.sub_titulos:hover  {
+    background-color: #35f605;
+}
+
+.texto2{
+    padding-left: 50px;
+    width: 70vw;
+    text-align: justify;
+}
 #oq_faz > hr {
-    width: 92vw;
-    margin: 10px 0px 40px 30px;
-    border: 0.5px solid black;
+    display: none;
 }
 
 #func {
@@ -190,10 +243,11 @@ main{
     width: 67vw;
     margin-left: 80px;
     margin-bottom: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .explicacao > p {
+    padding-top: 6px;
     margin-left: 7px;
     padding-right: 7px;
     
@@ -232,7 +286,7 @@ main{
 
 #portifolio {
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     background-color: rgb(118, 54, 202);
 }
 #titulo_port {
@@ -243,21 +297,27 @@ main{
     margin-bottom: -30px;
 }
 .port_div {
+    
     background-color: red;
-    width: 75vw;
-    height: 210px;
+    width: 40vw;
+    height: 410px;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 40px;
+    border-radius: 10px;
 }
-.port_div:hover {
-    border: 1px solid black;
+#port_div1 {
+    margin-left: 6vw;
+}   
+#port_div2 {
+   margin-top: -451px; 
+   margin-right: 6vw;
+
 }
+
 .port_div > hr {
     background-color: #000000;
     border: 0.5px solid black;
-    
-
 }
 .nome_port {
     font-size: 2em;
@@ -266,7 +326,7 @@ main{
 
 footer {
     width: 100%;
-    height: 16vh;
+    height: 15vh;
     background-color: rgb(255, 255, 0);
     color: black;
 }
@@ -275,7 +335,7 @@ footer > hr {
     border: 0.5px solid black;
     width: 100px;
     margin: auto;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
 }
 footer > a {
     text-decoration: none;
@@ -288,11 +348,16 @@ footer > a {
 .rede_icone {
     width: 30px;
     display: inline-block;
-    margin-left: 30px;
-    vertical-align: middle;
-    margin-bottom: 5px;
-    margin-top: -40px;
+    margin-left: 20vw;
+    margin-bottom: -8px;
 }
+
+#rede_icone_2 {
+    display: none;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
 
 #logo {
     color: black;
@@ -306,21 +371,24 @@ footer > a {
     display: inline-block;
     padding-left: 20px;
 }
+
 #seta {
-    margin-top: -46px;
+    margin-top: -40px;
     width: 30px;
     float: right;
     margin-right: 40px;
     background-color: #76b900;
     border-radius: 50%;
+    margin-right: 20vw;
 }
+
 #seta:hover {
     background-color: #05f621;
 }
 #copr {
-    margin-top: -30px;
+    margin-top: 13px;
     text-align: center;
-    margin: auto;
+    
 }
 
 .titulos1 {
@@ -328,27 +396,4 @@ footer > a {
     margin-bottom: 50px;
     
 }
-.sub_titulos {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    background-color: khaki;
-    padding-left: 10px;
-    border-radius: 20px;
-    width: 170px;
-}
-#sub_titulo_1 {
-    width: 150px;
-}
-#sub_titulo_2 {
-    width: 125px;
-}
-.sub_titulos:hover  {
-    background-color: #35f605;
-}
 
-.texto2{
-    padding-left: 50px;
-    width: 70vw;
-    text-align: justify;
-}

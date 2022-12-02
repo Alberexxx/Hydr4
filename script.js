@@ -3,18 +3,9 @@
 const inicio_logo = ScrollReveal({reset: true})
 inicio_logo.reveal(".titulo3", {
     origin: "top", 
-    distance: "1000px", 
+    distance: "100px", 
     duration: 1000, 
-    delay: 500, 
-    reset: false 
-});
-
-const inicio_left = ScrollReveal({reset: true})
-inicio_left.reveal("#linha_logo", {
-    origin: "left", 
-    distance: "1500px", 
-    duration: 1000, 
-    delay: 0, 
+    delay: 2000, 
     reset: false 
 });
 
@@ -22,8 +13,8 @@ const inicio_bottom = ScrollReveal({reset: true})
 inicio_bottom.reveal("#titulo", {
     origin: "bottom", 
     distance: "60px", 
-    duration: 4000, 
-    delay: 500, 
+    duration: 2000, 
+    delay: 0, 
     reset: false 
 });
 
@@ -32,7 +23,7 @@ inicio_contato.reveal(".contato", {
     origin: "bottom", 
     distance: "0px", 
     duration: 2000, 
-    delay: 1400, 
+    delay: 4000, 
     reset: false 
 });
 
@@ -145,7 +136,7 @@ const p4_div_img_1 = ScrollReveal({reset: true})
 p4_div_img_1.reveal("#port_div1", {
     origin: "left", 
     distance: "30px", 
-    duration: 2000, 
+    duration: 3000, 
     delay: 500, 
     reset: false 
 });
@@ -153,8 +144,8 @@ p4_div_img_1.reveal("#port_div1", {
 const p4_div_img_2 = ScrollReveal({reset: true})
 p4_div_img_2.reveal("#port_div2", {
     origin: "right", 
-    distance: "60px", 
-    duration: 2000, 
+    distance: "30px", 
+    duration: 3000, 
     delay: 500, 
     reset: false 
 });
