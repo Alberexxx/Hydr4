@@ -49,7 +49,7 @@ header {
     width: 40vw;
     background-color: #f60531;
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 7vw;
     font-size: 2em;
     padding: 15px 15px 15px 15px;
     padding-left: 15px;  
@@ -75,8 +75,8 @@ header {
 }
 
 #img1 {
-    width: 10px;
-    margin-left: 46vw;
+    width: 500px;
+    margin-left: 50vw;
     margin-right: 10vw;
     margin-top: -400px;
     display: block;
@@ -101,7 +101,7 @@ header {
 }
 #contato_1{
     margin-top: 60px;
-    margin-left: 13vw;
+    margin-left: 18.5vw;
     width: 200px;
     text-align: center;
     padding-right: 7px;
@@ -128,7 +128,8 @@ header {
 }
 #contato_2 {
     width: 170px;
-    margin-top: -38px;
+    margin-top: 100px;
+    margin-left: 43vw;
 }
 
 main{
@@ -163,19 +164,20 @@ main{
 }
 #sub_titulo_1 {
     display: block;
-    width: 255px;
-    margin-bottom:70px ;
+    width: 25vw;
+    margin-bottom: -77px ;
 }
 #sub_titulo_2 {
-    width: 255px;
-    margin-top: -446px;
+    width: 25vw;
+    margin-top: -300px;
     float: right;
-    margin-right: 40vw;
+    margin-right: 37vw;
+
 }
 #sub_titulo_3 {
-    width: 255px;
-    margin-top: -446px;
-    margin-right: 7vw;
+    width: 25vw;
+    margin-top: -300px;
+    margin-right: -58vw;
     float: right;
     
 }
@@ -184,7 +186,7 @@ main{
     height: 350px;
     width: 30vw;
     margin: auto;
-    margin-top: -500px;
+    margin-top: -800px;
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
@@ -210,14 +212,14 @@ main{
 }
 #texto2_2 {
     float: right;
-    margin-top: -354px;
+    margin-top: -244px;
     margin-right: 40vw;
     
 }
 #texto2_3 {
     float: right;
     margin-right: 10vw;
-    margin-top: -354px;
+    margin-top: -245px;
     
 }  
 
@@ -227,7 +229,7 @@ main{
 
 #func {
     width: 100vw;
-    height: 800px;
+    height: 700px;
     background-color: greenyellow;
 
 }
@@ -235,7 +237,7 @@ main{
 .titulo1 {
     font-size: 2.2em;
     margin-left: 20px;
-    margin-bottom: -73px;
+    margin-bottom: 73px;
     
 }
 #conteudo_func {
@@ -248,19 +250,34 @@ main{
 #linha {
     background-color: #ffffff;
     height: 460px;
-    width: 80vw;
+    width: 74vw;
     
-    border-left: 4px solid black;
+    border-top: 4px solid black;
     margin-top: 120px;
-    margin-left: 50px;
-    
+    margin-left:12vw;
+    border-left: none;
 }
 .titulo_func {
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.16);
     height: 50px;
     margin-top: -160px;
-}   
-
+} 
+#titulo_func_1 {
+    margin-top: -50px;
+    
+}
+#titulo_func_2 {
+    margin-top: -50px;
+}
+#titulo_func_3 {
+    margin-top: -50px;
+}
+#titulo_func_4 {
+    margin-top: -50px;
+}
+#titulo_func_5 {
+    margin-top: -600px;
+}
 #tampao {
     background-color: purple;
     width: 10px;
@@ -268,12 +285,14 @@ main{
 } 
 
 .explicacao {
+    font-size: 1.2em;
     background-color: deeppink;
-    height: 50px;
-    width: 67vw;
-    margin-left: 80px;
+    height: 150px;
+    width: 15vw;
+    margin-left: 6vw;
     margin-bottom: 60px;
     border-radius: 10px;
+    
 }
 
 .explicacao > p {
@@ -283,9 +302,24 @@ main{
     
 }
 #explicacao_1 {
-    margin-top: 5px;
+    margin-top: 80px;
     margin-bottom: 60px;
-    
+}
+#explicacao_2 {
+    margin-left: 24vw;
+    margin-top: -210px;
+}
+#explicacao_3 {
+    margin-left: 42vw;
+    margin-top: -210px;
+}
+#explicacao_4 {
+    margin-left: 60vw;
+    margin-top: -210px;
+}
+#explicacao_5 {
+    margin-left: 78vw;
+    margin-top: -210px;
 }
 
 .circulo {
@@ -293,7 +327,22 @@ main{
     width: 50px;
     background-color: blue;
     border-radius: 50%;
-    margin-left: 28px;
+    margin-left: 27px;
+}
+#circulo_1 {
+    margin-left: 11vw;
+}
+#circulo_2 {
+    margin-left: 28vw ;
+}
+#circulo_3 {
+    margin-left: 47vw ;
+}
+#circulo_4 {
+    margin-left: 65vw ;
+}
+#circulo_5 {
+    margin-left: 83vw ;
 }
 .circulo:hover {
     background-color: aqua;
@@ -306,10 +355,15 @@ main{
 .text_titulo {
     background-color: darkorange;
     font-size: 1.5em;
-    width: 200px;
+    width: 150px;
     margin-top: -30px;
-    margin-left: 60px;
+    margin-left: -3vw;
+    margin-top: 20px;
+    text-align: center;
 }
+
+
+
 .text_titulo:hover {
     color: greenyellow;
 }
@@ -371,30 +425,18 @@ footer > a {
     text-decoration: none;
 
 }
-.icon_div {
-    display: inline-block;
-}
 
 .rede_icone {
-    width: 30px;
-    display: inline-block;
-    margin-left: 20vw;
-    margin-bottom: -8px;
+    width: 40px;
+    margin-left: 88vw;
+    margin-bottom: 1;
+    
 }
-
-#rede_icone_2 {
-    display: none;
-    margin-top: 100px;
-    margin-left: 90px;
-}
-
 
 #logo {
     color: black;
-    font-size: 2em;
-    text-align: center; 
-    margin-bottom: 7px;  
-    margin-top: -10px;
+    font-size: 2em;  
+    margin-top: 1px;
     
 }
 #seta_div {
@@ -416,7 +458,7 @@ footer > a {
     background-color: #05f621;
 }
 #copr {
-    margin-top: 13px;
+    margin-top: 3px;
     text-align: center;
     
 }

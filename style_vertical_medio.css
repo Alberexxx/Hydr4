@@ -327,18 +327,13 @@ footer > a {
     text-decoration: none;
 
 }
-.icon_div {
-    display: inline-block;
-}
 
 .rede_icone {
-    width: 30px;
-    display: inline-block;
-    margin-left: 30px;
-    vertical-align: middle;
-    margin-bottom: 5px;
-    margin-top: -40px;
+    width: 40px;
+    margin-left: 90vw;
+    margin-top: -105px;
 }
+
 
 #logo {
     color: black;
