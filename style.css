@@ -30,7 +30,7 @@ body , html {
 
 header {
     width: 100vw;
-    height: 130vh;
+    height: 900px;
     background-color: aqua;
     
 }
@@ -46,7 +46,7 @@ header {
 #titulo {
     width: 80vw;
     background-color: #35f605;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 40px;
     font-size: 1.7em;
     padding: 15px 15px 15px 15px;
@@ -113,6 +113,14 @@ header {
 #whatsapp:hover {
 
 }
+#contato_1{
+    margin-top: 20px;
+    margin-left: 13vw;
+    width: 130px;
+    text-align: center;
+    padding-right: 7px;
+
+}
 #contato_2 {
     width: 170px;
     margin-top: -38px;
@@ -125,7 +133,7 @@ main{
 
 #oq_faz {
     width: 100vw;
-    height: 110vh;
+    height: 850px;
     background-color: brown;
     text-align: left;
     
@@ -144,7 +152,7 @@ main{
 
 #func {
     width: 100vw;
-    height: 110vh;
+    height: 800px;
     background-color: greenyellow;
 
 }
@@ -232,7 +240,7 @@ main{
 
 #portifolio {
     width: 100vw;
-    height: 110vh;
+    height: 800px;
     background-color: rgb(118, 54, 202);
 }
 #titulo_port {
@@ -266,7 +274,7 @@ main{
 
 footer {
     width: 100%;
-    height: 16vh;
+    height: 100px;
     background-color: rgb(255, 255, 0);
     color: black;
 }
@@ -330,7 +338,7 @@ footer > a {
 }
 .sub_titulos {
     font-size: 1.2em;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-top: 10px;
     background-color: khaki;
     padding-left: 10px;
