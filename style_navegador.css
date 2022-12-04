@@ -10,8 +10,10 @@
 
 :root {
     --branco: #ffffff;
+    --braco_escuro: rgb(239, 239, 239);
     --cinza: #656566;
     --verde: #76b900;
+    --verde_claro: #35f605;
     --preto_claro: #181819;
     --preto: #000000;
     --font_Raleway: 'Raleaway',sans-serif;
@@ -20,24 +22,23 @@
 
 body , html {
     width: 100vw;
-    color: white;
     background-color: #ffffff;
     scroll-behavior: smooth;
     font-size: 1em;
-    color: black;
     font-family: var(--font_Raleway);
+    color: white;
 }
 
 header {
     width: 100vw;
     height: 900px;
-    background-color: aqua;  
+    background-color: var(--preto);  
 }
 
 #titulo3 {
     font-size: 3em;
     text-decoration: none;
-    color: black;
+    color: var(--branco);
     margin-left: 1vw;
 }
 #rede_icone {
@@ -53,7 +54,6 @@ header {
 #titulo {
     
     width: 40vw;
-    background-color: #f60531;
     margin-top: 70px;
     margin-left: 7vw;
     font-size: 2em;
@@ -69,7 +69,7 @@ header {
 #nav1 {
     width: 100vw;
     height: 70px;
-    background-color: azure;
+    background-color: var(--preto_claro);
     color: black;
     
 }
@@ -101,9 +101,10 @@ header {
     margin-left: 100px;
     margin-top: 30px;
     color: var(--preto); 
+    
 }
 .contato:hover {
-    background-color: #35f605;
+    background-color: var(--verde_claro);
 }
 #contato_1{
     margin-top: 60px;
@@ -111,7 +112,6 @@ header {
     width: 200px;
     text-align: center;
     padding-right: 7px;
-
 }
 
 .link_whats {
@@ -130,7 +130,7 @@ header {
     
 }
 #whatsapp:hover {
-
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.232);
 }
 #contato_2 {
     width: 170px;
@@ -146,7 +146,7 @@ main{
 #oq_faz {
     width: 100vw;
     height: 800px;
-    background-color: brown;
+    background-color: var(--preto_claro);
     text-align: left;
     
 }
@@ -162,7 +162,6 @@ main{
     font-size: 1.2em;
     margin-bottom: 5px;
     margin-top: 97px;
-    background-color: khaki;
     padding-left: 10px;
     border-radius: 20px;
     width: 170px;
@@ -193,8 +192,8 @@ main{
     width: 30vw;
     margin: auto;
     margin-top: -800px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid var(--verde);
+    border-right: 2px solid var(--verde);
 }
 #linha_p2_1 {
     margin-top: 100px;
@@ -236,7 +235,7 @@ main{
 #func {
     width: 100vw;
     height: 700px;
-    background-color: greenyellow;
+    background-color: var(--preto);
 
 }
 
@@ -247,24 +246,22 @@ main{
     
 }
 #conteudo_func {
-    background-color: aqua;
+    background-color: var(--preto);
     height: 80vh;
     width: 80vw;
     margin-left: 50px;
     margin-top: -30px;
 }
 #linha {
-    background-color: #ffffff;
     height: 460px;
     width: 74vw;
     
-    border-top: 4px solid black;
+    border-top: 4px solid var(--verde);
     margin-top: 120px;
     margin-left:12vw;
     border-left: none;
 }
 .titulo_func {
-    background-color: rgba(255, 0, 0, 0.16);
     height: 50px;
     margin-top: -160px;
 } 
@@ -285,14 +282,13 @@ main{
     margin-top: -600px;
 }
 #tampao {
-    background-color: purple;
+
     width: 10px;
     height: 20px;
 } 
 
 .explicacao {
     font-size: 1.2em;
-    background-color: deeppink;
     height: 150px;
     width: 15vw;
     margin-left: 6vw;
@@ -331,7 +327,7 @@ main{
 .circulo {
     height: 50px;
     width: 50px;
-    background-color: blue;
+    background-color: var(--cinza);
     border-radius: 50%;
     margin-left: 27px;
 }
@@ -351,7 +347,7 @@ main{
     margin-left: 83vw ;
 }
 .circulo:hover {
-    background-color: aqua;
+    background-color: var(--branco);
 }
 .circulo > p {
     font-size: 2em;
@@ -359,7 +355,6 @@ main{
     padding-top: 7px;
 }
 .text_titulo {
-    background-color: darkorange;
     font-size: 1.5em;
     width: 150px;
     margin-top: -30px;
@@ -377,7 +372,7 @@ main{
 #portifolio {
     width: 100vw;
     height: 800px;
-    background-color: rgb(118, 54, 202);
+    background-color: var(--preto_claro);
 }
 #titulo_port {
     display: block;
@@ -388,7 +383,7 @@ main{
 }
 .port_div {
     
-    background-color: red;
+    background-color: var(--cinza);
     width: 40vw;
     height: 410px;
     margin: auto;
@@ -417,7 +412,7 @@ main{
 footer {
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 255, 0);
+    background-color: var(--braco_escuro);
     color: black;
 }
 footer > hr {
