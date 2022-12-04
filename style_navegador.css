@@ -31,19 +31,25 @@ body , html {
 header {
     width: 100vw;
     height: 900px;
-    background-color: aqua;
-    
+    background-color: aqua;  
 }
 
-.titulo3 {
-    
-}
-
-.titulo3 > a {
+#titulo3 {
+    font-size: 3em;
     text-decoration: none;
     color: black;
-    margin-left: 40vw;
+    margin-left: 1vw;
 }
+#rede_icone {
+    width: 40px;
+}
+#link_insta {
+    margin-top: 14px;
+    margin-left: 80vw;
+    display: inline-block;
+    width: 40px;
+}
+
 #titulo {
     
     width: 40vw;
@@ -78,7 +84,7 @@ header {
     width: 500px;
     margin-left: 50vw;
     margin-right: 10vw;
-    margin-top: -400px;
+    margin-top: -350px;
     display: block;
     
     
@@ -426,13 +432,6 @@ footer > a {
 
 }
 
-.rede_icone {
-    width: 40px;
-    margin-left: 88vw;
-    margin-bottom: 1;
-    
-}
-
 #logo {
     color: black;
     font-size: 2em;  
@@ -447,11 +446,10 @@ footer > a {
 #seta {
     margin-top: -40px;
     width: 30px;
-    float: right;
-    margin-right: 40px;
+    float: left;
+    margin-left: 10vw;
     background-color: #76b900;
     border-radius: 50%;
-    margin-right: 20vw;
 }
 
 #seta:hover {

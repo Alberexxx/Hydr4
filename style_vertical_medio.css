@@ -36,13 +36,19 @@ header {
 }
 
 #titulo3 {
-    
-}
-
-.titulo3 > a {
+    font-size: 3em;
     text-decoration: none;
     color: black;
-    margin-left: 40vw;
+    margin-left: 1vw;
+}
+#rede_icone {
+    width: 40px;
+}
+#link_insta {
+    margin-top: 14px;
+    margin-left: 70vw;
+    display: inline-block;
+    width: 40px;
 }
 #titulo {
     
@@ -325,15 +331,7 @@ footer > hr {
 }
 footer > a {
     text-decoration: none;
-
 }
-
-.rede_icone {
-    width: 40px;
-    margin-left: 90vw;
-    margin-top: -105px;
-}
-
 
 #logo {
     color: black;
@@ -350,8 +348,8 @@ footer > a {
 #seta {
     margin-top: -46px;
     width: 30px;
-    float: right;
-    margin-right: 40px;
+    float: left;
+    margin-left: 10vw;
     background-color: #76b900;
     border-radius: 50%;
 }

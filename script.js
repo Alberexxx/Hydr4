@@ -1,11 +1,11 @@
 
 // incio ----->
 const inicio_logo = ScrollReveal({reset: true})
-inicio_logo.reveal(".titulo3", {
+inicio_logo.reveal("#titulo3", {
     origin: "top", 
     distance: "100px", 
     duration: 1000, 
-    delay: 2000, 
+    delay: 1000, 
     reset: false 
 });
 
@@ -126,16 +126,12 @@ p3_text.reveal(".explicacao", {
     delay: 2000, 
     reset: false 
 });
-
-// fim pagina_3
-
-// inicio pagina_4
-
+// fim --
 
 const p4_div_img_1 = ScrollReveal({reset: true})
 p4_div_img_1.reveal("#port_div1", {
     origin: "left", 
-    distance: "30px", 
+    distance: "10px", 
     duration: 3000, 
     delay: 500, 
     reset: false 
@@ -144,7 +140,7 @@ p4_div_img_1.reveal("#port_div1", {
 const p4_div_img_2 = ScrollReveal({reset: true})
 p4_div_img_2.reveal("#port_div2", {
     origin: "right", 
-    distance: "30px", 
+    distance: "10px", 
     duration: 3000, 
     delay: 500, 
     reset: false 
@@ -173,11 +169,11 @@ p5_linha.reveal("#linha_footer", {
 });
 
 const p5_redes = ScrollReveal({reset: true})
-p5_redes.reveal(".rede_icone,.icon_div", {
+p5_redes.reveal("#rede_icone", {
     origin: "left", 
     distance: "0px", 
     duration: 2000, 
-    delay: 500, 
+    delay: 1500, 
     reset: false 
 });
 
