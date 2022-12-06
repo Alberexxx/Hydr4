@@ -23,7 +23,7 @@ inicio_contato.reveal(".contato", {
     origin: "bottom", 
     distance: "0px", 
     duration: 2000, 
-    delay: 4000, 
+    delay: 1000, 
     reset: false 
 });
 
@@ -178,7 +178,7 @@ p5_redes.reveal("#rede_icone", {
 });
 
 const p5_botao = ScrollReveal({reset: true})
-p5_botao.reveal("#seta, #copr", {
+p5_botao.reveal("#seta", {
     origin: "left", 
     distance: "0px", 
     duration: 2000, 
