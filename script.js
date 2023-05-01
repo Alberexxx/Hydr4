@@ -27,6 +27,7 @@ inicio_contato.reveal(".contato", {
     reset: false 
 });
 
+
 const inicio_img = ScrollReveal({reset: true})
 inicio_img.reveal("#img1", {
     origin: "bottom", 
@@ -77,9 +78,9 @@ p2_linha.reveal(".p2_linha", {
 
 const p2_text = ScrollReveal({reset: true})
 p2_text.reveal(".texto2, .texto1", {
-    origin: "right", 
+    origin:"left", 
     distance: "60px", 
-    duration: 2000, 
+    duration: 1000, 
     delay: 1500, 
     reset: false 
 });
@@ -121,8 +122,8 @@ p3_sub.reveal(".text_titulo", {
 const p3_text = ScrollReveal({reset: true})
 p3_text.reveal(".explicacao", {
     origin: "right", 
-    distance: "60px", 
-    duration: 2000, 
+    distance: "0px", 
+    duration: 2500, 
     delay: 2000, 
     reset: false 
 });

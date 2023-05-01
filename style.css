@@ -50,7 +50,15 @@ header {
     padding-left: 15px;  
     padding-right: 15px;
     border-radius: 20px;
-    background-color: #0000007e;
+    background-color: #0000008f;
+}
+
+#titulodegrade{
+    background-image: linear-gradient(330deg, #eaff00 0, #caff00 12.5%, #a6ff00 25%, #7aff00 37.5%, #33ff00 50%, #00fb2d 62.5%, #00f847 75%, #00f45e 87.5%, #00f075 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   color: black;
 }
 #titulo:hover {
     background-color: var(--preto_claro);
@@ -231,7 +239,7 @@ main{
 .explicacao {
     
     height: 50px;
-    width: 67vw;
+    width: 75vw;
     margin-left: 80px;
     margin-bottom: 60px;
     border-radius: 5px;
