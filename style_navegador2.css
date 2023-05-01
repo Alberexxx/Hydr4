@@ -156,117 +156,59 @@ main{
 
 #oq_faz {
     width: 100vw;
-    height: 800px;
+    height: 700px;
     background-color: var(--preto_claro);
     text-align: left;
     
 }
 #oq_faz > p {
-    
     margin-left: 30px;
     display: block;
     border-collapse: separate;
     
 }
+#oq_faz > hr {
+    width: 92vw;
+    margin: 10px 0px 40px 30px;
+    border: 0.5px solid var(--verde);
+}
+
+.titulos1 {
+    font-size: 2.2em;
+    margin-bottom: 50px;
+    
+}
 .sub_titulos {
-    display: block;
     font-size: 1.2em;
-    margin-bottom: 5px;
-    margin-top: 97px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     padding-left: 10px;
     border-radius: 20px;
     width: 170px;
-    text-align: center;
 }
 #sub_titulo_1 {
-    display: block;
-    width: 25vw;
-    margin-bottom: -77px ;
+    width: 150px;
 }
 #sub_titulo_2 {
-    width: 25vw;
-    margin-top: -300px;
-    float: right;
-    margin-right: 37vw;
-
+    width: 125px;
 }
-#sub_titulo_3 {
-    width: 25vw;
-    margin-top: -303px;
-    margin-right: 8vw;
-    float: right;
-
-    
-    
-    
-}
-.linha_p2 {
-    display: block;
-    height: 350px;
-    width: 30vw;
-    margin: auto;
-    margin-top: -800px;
-    border-left: 2px solid var(--verde);
-    border-right: 2px solid var(--verde);
-}
-#linha_p2_1 {
-    margin-top: 100px;
-    
-}
-
 .sub_titulos:hover  {
     background-color: #35f605;
 }
 
-.texto2 {
-    font-size: 1.5em;
+.texto2{
     padding-left: 50px;
-    margin-bottom: -50px;
-    width: 20vw;
+    width: 70vw;
     text-align: justify;
-}
-#texto2_1 {
-    display: inline-block;
-    margin-top: -340px;
-   
-}
-#texto2_2 {
-    float: right;
-    margin-top: -244px;
-    margin-right: 40vw;
-    
-}
-#texto2_3 {
-    float: right;
-    margin-right: 10vw;
-    margin-top: -245px;
-    
-}  
-
-#oq_faz > hr {
-    display: none;
 }
 
 #func {
     width: 100vw;
-    height: 700px;
+    height: 900px;
     background-color: var(--preto);
 
 }
 
-.titulo1 {
-    font-size: 2.2em;
-    margin-left: 20px;
-    margin-bottom: 73px;
-    
-}
-#conteudo_func {
-    background-color: var(--preto);
-    height: 80vh;
-    width: 80vw;
-    margin-left: 50px;
-    margin-top: -30px;
-}
 #linha {
     height: 460px;
     width: 74vw;
@@ -276,6 +218,19 @@ main{
     margin-left:12vw;
     border-left: none;
 }
+.titulo1 {
+    font-size: 2.2em;
+    margin-left: 20px;
+    margin-bottom: -73px;
+    
+}
+#conteudo_func {
+    height: 800px;
+    width: 80vw;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
 .titulo_func {
     height: 50px;
     margin-top: -160px;

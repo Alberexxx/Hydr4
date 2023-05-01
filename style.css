@@ -33,7 +33,11 @@ header {
     width: 100vw;
     height: 900px;
     background-color: var(--preto);
-    
+    background-image: url(imagens/fundo_transparente_40.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
 }
 
 #titulo {
@@ -46,6 +50,7 @@ header {
     padding-left: 15px;  
     padding-right: 15px;
     border-radius: 20px;
+    background-color: #0000007e;
 }
 #titulo:hover {
     background-color: var(--preto_claro);
@@ -298,7 +303,8 @@ main{
     border-radius: 10px;
 }
 .port_div:hover {
-    box-shadow: 0px 0px 0px 1px var(--verde_claro) inset;
+    box-shadow: 0px 0px 0px 1px var(--verde) inset;
+    color: var(--verde);
 }
 .port_div > hr {
     background-color: black;
@@ -309,6 +315,11 @@ main{
     margin-left: 10px;
     text-align: center;
 }
+.breve {
+    text-align: center;
+    margin-top: 70px;
+}
+
 
 footer {
     width: 100%;
